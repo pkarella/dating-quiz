@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Dating Quiz</title>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row" >
+      <div class="col-md-4">
+        <h1>Celebrity Dating Quiz</h1>
+        <h4>Fill out the form to find out which celebrity is your TRUE match</h4>
+        <form id="info-form">
+          <div class="form-group">
+            <label for="born">Date of birth:</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="pet" value="cats" checked>
+              Cats
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="pet" value="dogs">
+              Dogs
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="pet" value="nopets">
+              I hate pets
+            </label>
+          </div>
+          <select class="form-control" id="sign">
+            <option>Aries</option>
+            <option>Taurus</option>
+            <option>Leo</option>
+          </select>
+
+          <button type="submit" class="btn">Submit!</button>
+        </form>
+      </div>
+      <div class="col-md-8">
+        <h2></h2>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
